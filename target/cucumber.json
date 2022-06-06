@@ -1,0 +1,1064 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-06T09:13:18.130Z",
+        "line": 13,
+        "name": "User Log in to ABN AMRO application with \u0027admin\u0027",
+        "description": "",
+        "id": "automate-home-page-tests;user-log-in-to-abn-amro-application-with--\u003crole\u003e-;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3468000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 389000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login in with user \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify if home page displayed for signed in user",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify if home page contains correct content",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageContentValue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T09:13:22.267Z",
+        "line": 14,
+        "name": "User Log in to ABN AMRO application with \u0027normalUser-Biancunha\u0027",
+        "description": "",
+        "id": "automate-home-page-tests;user-log-in-to-abn-amro-application-with--\u003crole\u003e-;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login in with user \"normalUser-Biancunha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-Biancunha",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify if home page displayed for signed in user",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify if home page contains correct content",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageContentValue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T09:13:22.681Z",
+        "line": 15,
+        "name": "User Log in to ABN AMRO application with \u0027normalUser-growdev\u0027",
+        "description": "",
+        "id": "automate-home-page-tests;user-log-in-to-abn-amro-application-with--\u003crole\u003e-;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login in with user \"normalUser-growdev\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-growdev",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify if home page displayed for signed in user",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify if home page contains correct content",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageContentValue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T09:13:23.036Z",
+        "line": 17,
+        "name": "User name displayed on Home page",
+        "description": "",
+        "id": "automate-home-page-tests;user-name-displayed-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Login in with user \"normalUser-Biancunha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-Biancunha",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Verify if correct user name displays on Home page",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyUserName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T09:13:23.355Z",
+        "line": 23,
+        "name": "Verify",
+        "description": "",
+        "id": "automate-home-page-tests;verify",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Login in with user \"normalUser-Biancunha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-Biancunha",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify if correct user name displays on Home page",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyUserName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 95000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automate Home page Tests",
+    "description": "Description: The purpose of this feature is to test Home page of ABN AMRO web application.",
+    "id": "automate-home-page-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/home_page_tests.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-06T09:13:23.660Z",
+        "line": 11,
+        "name": "Verify error scenarios",
+        "description": "",
+        "id": "automate-negative-scenarios;verify-error-scenarios;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Error case- Login in with user \"invalid email Id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid email Id",
+                  "offset": 32
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.logIn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the error message for \"invalid email Id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid email Id",
+                  "offset": 30
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.verifyError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T09:13:23.685Z",
+        "line": 12,
+        "name": "Verify error scenarios",
+        "description": "",
+        "id": "automate-negative-scenarios;verify-error-scenarios;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Error case- Login in with user \"user incorrect credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user incorrect credentials",
+                  "offset": 32
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.logIn(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the error message for \"user incorrect credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user incorrect credentials",
+                  "offset": 30
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.verifyError(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automate Negative scenarios",
+    "description": "  Description: The purpose of this feature is to test negative scenarios of ABN AMRO web application.",
+    "id": "automate-negative-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/negative_tests.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-06T09:13:23.707Z",
+        "line": 4,
+        "name": "Verify FAQs on the Contact page",
+        "description": "",
+        "id": "automate-contact-page-tests;verify-faqs-on-the-contact-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login in with user \"normalUser-growdev\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-growdev",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify if home page displayed for signed in user",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to \"Contact page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contact page",
+                  "offset": 19
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.navigate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify if the appropriate FAQ are listed",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyFAQs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T09:13:24.069Z",
+        "line": 12,
+        "name": "Verify email Id and phone number on the Contact page",
+        "description": "",
+        "id": "automate-contact-page-tests;verify-email-id-and-phone-number-on-the-contact-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Login in with user \"normalUser-Biancunha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-Biancunha",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify if home page displayed for signed in user",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User navigates to \"Contact page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contact page",
+                  "offset": 19
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.navigate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify if Email Ids are available",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyEmailIds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify if phone numbers are available",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyPhoneNumbers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automate Contact page Tests",
+    "description": "  Description: The purpose of this feature is to test Contact page of ABN AMRO web application.",
+    "id": "automate-contact-page-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/page_contact_tests.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-06T09:13:24.396Z",
+        "line": 15,
+        "name": "Verify user Products",
+        "description": "",
+        "id": "automate-products-page-tests;verify-user-products;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login in with user \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify if home page displayed for signed in user",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to \"Product page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product page",
+                  "offset": 19
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.navigate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "All the products for the user \"admin\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 31
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.verifyUserProducts(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User \"admin\" can take required action for the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 6
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.validateUserAction(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T09:13:24.695Z",
+        "line": 16,
+        "name": "Verify user Products",
+        "description": "",
+        "id": "automate-products-page-tests;verify-user-products;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 204000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login in with user \"normalUser-Biancunha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-Biancunha",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify if home page displayed for signed in user",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to \"Product page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product page",
+                  "offset": 19
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.navigate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "All the products for the user \"normalUser-Biancunha\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-Biancunha",
+                  "offset": 31
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.verifyUserProducts(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User \"normalUser-Biancunha\" can take required action for the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-Biancunha",
+                  "offset": 6
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.validateUserAction(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-06T09:13:25.017Z",
+        "line": 17,
+        "name": "Verify user Products",
+        "description": "",
+        "id": "automate-products-page-tests;verify-user-products;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User loads the application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login in with user \"normalUser-growdev\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-growdev",
+                  "offset": 20
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.signIn_user(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify if home page displayed for signed in user",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.verifyHomePageDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to \"Product page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product page",
+                  "offset": 19
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.navigate(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "All the products for the user \"normalUser-growdev\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-growdev",
+                  "offset": 31
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.verifyUserProducts(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User \"normalUser-growdev\" can take required action for the product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "normalUser-growdev",
+                  "offset": 6
+                }
+              ],
+              "location": "com.abnamro.steps.StepsDefinitions.validateUserAction(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Logout from ABN AMRO application",
+            "match": {
+              "location": "com.abnamro.steps.StepsDefinitions.logout_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automate Products page Tests",
+    "description": "  Description: The purpose of this feature is to test Products page of ABN AMRO web application.",
+    "id": "automate-products-page-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/product_page_tests.feature",
+    "tags": []
+  }
+]

@@ -16,8 +16,8 @@ This project is a plan project with Cucumber framework to automate Web applicati
 ## Execute Scripts
 
 ```
-1. Download the project from github https://github.com/ssshivangi/selenium-cucumber-bdd
-2. Open command prompt from downloded project folder 
+1. Download the project from github https://github.com/ssshivangi/abn-assignment
+2. Open command prompt from downloaded project folder 
 3. To execute automation scripts, run command 'mvn clean test'
 4. To generate the cucumber report 'mvn verify -DskipTests'
 5. Refresh the project folder, in order to view cucumber report. Go to target -> cucumber-report-html -> cucumber-html-reports -> feature-overview.html
