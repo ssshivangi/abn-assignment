@@ -33,11 +33,16 @@ folder target -> cucumber-report-html -> cucumber-html-reports -> feature-overvi
 
 ## Test Cases
 
+### home_page_tests.feature
 - Added test for login functionality 
 - Added test to verify content on Home Page
+### product_page_tests.feature
 - Added scenarios to verify expected functionality of Products page. (As of now, development has not been done)
+### page_contact_tests.feature
 - Added scenarios to verify expected functionality of Contacts page. (As of now, development has not been done)
 - Added scenarios to verify error message for incorrect credentials. (As of now, development has not been done)
+### negative_tests.feature
+- Added error cases for Login page. (As of now, no error displays with incorrect data)
 
 
 
