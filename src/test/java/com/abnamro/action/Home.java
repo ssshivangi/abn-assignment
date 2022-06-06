@@ -21,12 +21,18 @@ public class Home {
 
     public static final By LINK_HOME_PAGE =By.className("home");
 
+    public static final By LINK_PRODUCTS_PAGE =By.className("products");
+
+    public static final By LINK_CONTACTS_PAGE =By.className("contact");
+
     private final WebDriver driver = DriverFactory.getDriver();
     private final WebDriverWait wait = new WebDriverWait(driver,500);
 
-    public void verifyHomePageDisplayed() {
-        assertTrue("Home link is not displayed",driver.findElement(LINK_HOME_PAGE).isDisplayed());
+    public void verifyHomePageLoaded() {
+        assertTrue("Home is not displayed",driver.findElement(LINK_HOME_PAGE).isDisplayed());
         assertTrue("User icon is not displayed",driver.findElement(USER_ICON).isDisplayed());
+        assertTrue("PRODUCTS is not displayed",driver.findElement(LINK_PRODUCTS_PAGE).isDisplayed());
+        assertTrue("CONTACTS is not displayed",driver.findElement(LINK_CONTACTS_PAGE).isDisplayed());
     }
 
     public void logoutUser(){

@@ -27,8 +27,8 @@ public class StepsDefinitions {
 	}
 	
 	@Then("^Verify if home page displayed for signed in user$")
-	public void verifyHomePageDisplayed() {
-		homeActions.verifyHomePageDisplayed();
+	public void verifyHomePageLoaded() {
+		homeActions.verifyHomePageLoaded();
 	}
 
 	@Then("^Verify if home page contains correct content$")

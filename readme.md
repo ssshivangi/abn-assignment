@@ -1,10 +1,10 @@
 
-# UI testing using selenium cucumber BDD	
+# UI testing using Selenium Cucumber BDD	
 This project is a plan project with Cucumber framework to automate Web application.
 
-- Automation of ABN amro web application with selenium BDD
+- Automation of ABN Amro web application with Selenium BDD
 
-- This also includes the cucumber reporting.
+- This also includes the cucumber reporting
 
 
 ## Project Setup
@@ -29,11 +29,11 @@ This project is a plan project with Cucumber framework to automate Web applicati
 
 folder target -> cucumber-report-html -> cucumber-html-reports -> feature-overview.html
 
-![TestReport](.\screenshot\Test_Report.jpg)
+![TestReport](./screenshot/Test_Report.jpg)
 
 ## Test Cases
 
-- Added test for login functionality. 
+- Added test for login functionality 
 - Added test to verify content on Home Page
 - Added scenarios to verify expected functionality of Products page. (As of now, development has not been done)
 - Added scenarios to verify expected functionality of Contacts page. (As of now, development has not been done)
