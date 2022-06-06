@@ -6,4 +6,4 @@ orbs:
 workflows:
   maven_test:
     jobs:
-      - mvn clean test; mvn verify -DskipTests
+      - maven/test
